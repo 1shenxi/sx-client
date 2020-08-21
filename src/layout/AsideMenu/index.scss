@@ -1,0 +1,21 @@
+@import '../../assets/scss/common';
+
+.sx-aside-menu {
+  min-height: 100vh;
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+}
+
+.sx-avator {
+  text-align: center;
+  margin-top: 100px;
+  color: $font-size-dark-color;
+
+  &__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+}

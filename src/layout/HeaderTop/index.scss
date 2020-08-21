@@ -1,0 +1,7 @@
+@import "../../assets/scss/common";
+
+.sx-header-top {
+  background: #fff;
+
+  @include boxshadow();
+}
